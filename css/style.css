@@ -1,0 +1,46 @@
+body {
+    width: 320px;
+    padding: 0;
+    margin: 0;
+
+}
+div {
+ background-image: url(../img/pony.png);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+padding: 16px 21.5px;
+
+}
+
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+.check {
+    position: relative
+}
+.check__checkbox {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -35px;
+    top: -15px;
+    background-color: #000000;
+}
+.check__input:checked + .check__checkbox {
+    opacity: 0;
+}
